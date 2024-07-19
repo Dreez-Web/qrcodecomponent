@@ -12,6 +12,8 @@ body {
     margin: 0;
     background-color: #e0e8fd;
     font-family: Arial, sans-serif;
+    padding: 10px;
+
 }
 
 .card {
@@ -26,6 +28,7 @@ body {
 .qr-code {
     width: 100%;
     border-radius: 10px;
+    max-width: 400px;
 }
 
 h1 {
@@ -38,4 +41,19 @@ p {
     font-size: 14px;
     color: #666;
     margin: 0;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }
